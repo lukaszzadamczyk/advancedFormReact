@@ -1,0 +1,14 @@
+div.yourEvent input#reward {
+    width: 70px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 17px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(211, 205, 205);
+    color: #9caac4;
+}
+
+div.yourEvent input#reward::placeholder {
+    color: rgb(211, 205, 205);
+}

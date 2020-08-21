@@ -1,0 +1,19 @@
+input.fee {
+    width: 50px;
+    line-height: 15px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid rgb(211, 205, 205);
+    color: #9caac4;
+}
+
+input.fee::placeholder {
+    color: rgb(211, 205, 205);
+}
+
+span.fee {
+    margin-left: 5px;
+    font-size: 1.2rem;
+    color: #9caac4;
+}

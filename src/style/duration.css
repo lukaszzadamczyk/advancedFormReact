@@ -1,0 +1,20 @@
+div.when input.duration {
+    width: 20%;
+    line-height: 25px;
+    margin-top: 13px;
+    padding-left: 5px;
+    color: #9caac4;
+    border: 1px solid rgb(211, 205, 205);
+    font-size: 12px;
+}
+
+div.when input.duration::placeholder {
+    color: rgb(211, 205, 205);
+    font-size: 12px;
+
+}
+
+div.when span.duration {
+    margin-left: 10px;
+    color: #9caac4;
+}

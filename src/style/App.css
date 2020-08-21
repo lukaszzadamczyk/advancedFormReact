@@ -1,0 +1,44 @@
+header.title {
+    padding: 20px 0 20px 10px;
+    background-color: #4267b2;
+    color: white;
+
+}
+
+form {
+    max-width: 80%;
+    min-height: 80vh;
+    margin: 20px auto;
+
+}
+
+section.yourEvent {
+    width: 100%;
+    min-height: 50vh;
+    padding: 3%;
+    box-shadow: rgb(211, 205, 205) 0 0 5px;
+    color: rgb(211, 205, 205);
+    background-color: #fff;
+}
+
+section.coordinator {
+    width: 100%;
+    min-height: 22vh;
+    padding: 3%;
+    margin-top: 20px;
+    box-shadow: rgb(211, 205, 205) 0 0 5px;
+    color: rgb(211, 205, 205);
+    background-color: #fff;
+    overflow: hidden;
+}
+
+section.when {
+    width: 100%;
+    min-height: 22vh;
+    padding: 3%;
+    margin-top: 20px;
+    box-shadow: rgb(211, 205, 205) 0 0 5px;
+    color: rgb(211, 205, 205);
+    background-color: #fff;
+    overflow: hidden;
+}

@@ -1,0 +1,19 @@
+div.coordinator select {
+    width: 70%;
+    height: 25px;
+    padding-left: 5px;
+    color: #9caac4;
+    border: 1px solid rgb(211, 205, 205);
+    font-size: 12px;
+}
+
+div.coordinator div.message {
+    position: absolute;
+    top: 5%;
+    left: 72%;
+    padding: 2px 5px;
+    font-size: 8px;
+    background-color: rgb(230, 129, 129);
+    color: white;
+
+}

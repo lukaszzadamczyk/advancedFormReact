@@ -1,0 +1,14 @@
+div.yourEvent select {
+    width: 70%;
+    margin-top: 15px;
+    padding-left: 5px;
+    color: rgb(211, 205, 205);
+    border: 1px solid rgb(211, 205, 205);
+    font-size: 12px;
+}
+
+div.yourEvent p#category {
+    margin-top: 3px;
+    font-size: 5px;
+    color: rgb(211, 205, 205);
+}

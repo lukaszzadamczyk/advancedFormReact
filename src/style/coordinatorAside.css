@@ -1,0 +1,12 @@
+div.coordinator p {
+    text-transform: uppercase;
+    color: #9caac4;
+}
+
+div.coordinator p span {
+    color: rgb(240, 108, 108);
+}
+
+div.coordinator p:nth-child(2) {
+    margin-top: 25px;
+}

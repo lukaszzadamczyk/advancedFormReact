@@ -1,0 +1,44 @@
+div.yourEvent textarea {
+    margin-top: 10px;
+    width: 70%;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid rgb(211, 205, 205);
+    font-family: 'Open Sans', sans-serif;
+    color: #9caac4;
+}
+
+div.yourEvent textarea::placeholder {
+    font-size: 12px;
+    color: rgb(211, 205, 205);
+}
+
+div.yourEvent div.characters {
+    display: flex;
+    position: relative;
+    width: 70%;
+}
+
+div.yourEvent div.characters p {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 5px;
+    color: rgb(211, 205, 205);
+}
+
+div.yourEvent div.characters p:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div.yourEvent div.messageDescription {
+    position: absolute;
+    top: 17%;
+    left: 72%;
+    padding: 2px 5px;
+    font-size: 8px;
+    background-color: rgb(230, 129, 129);
+    color: white;
+
+}

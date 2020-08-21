@@ -1,0 +1,12 @@
+div.when p {
+    text-transform: uppercase;
+    color: #9caac4;
+}
+
+div.when p span {
+    color: rgb(240, 108, 108);
+}
+
+div.when p:nth-child(2) {
+    margin-top: 30px;
+}

@@ -1,0 +1,16 @@
+div.coordinator select.email {
+    width: 70%;
+    line-height: 25px;
+    margin-top: 13px;
+    padding-left: 5px;
+    color: #9caac4;
+    border: 1px solid rgb(211, 205, 205);
+    font-size: 12px;
+}
+
+div.coordinator select.email::placeholder {
+    color: rgb(211, 205, 205);
+    font-size: 12px;
+
+
+}

@@ -1,0 +1,53 @@
+div.when div.contentStarts {
+    display: flex;
+
+}
+
+div.when input.date {
+    width: 35%;
+    height: 25px;
+    padding-left: 5px;
+    color: #9caac4;
+    border: 1px solid rgb(211, 205, 205);
+    font-size: 12px;
+}
+
+div.when input.time {
+    width: 20%;
+    height: 25px;
+    padding-left: 5px;
+    color: #9caac4;
+    border: 1px solid rgb(211, 205, 205);
+    font-size: 12px;
+}
+
+div.when span.starts {
+    margin: 5px 5px 0 5px;
+    color: #9caac4;
+}
+
+div.when div.radioStarts {
+    display: flex;
+    padding-top: 7px;
+    margin-left: 15px;
+}
+
+div.when div label {
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 1rem;
+    color: #9caac4;
+    text-transform: uppercase;
+}
+
+div.when div.message {
+    position: absolute;
+    top: 14%;
+    left: 88%;
+    padding: 2px 5px;
+    font-size: 8px;
+    background-color: rgb(230, 129, 129);
+    color: white;
+
+
+}

@@ -1,0 +1,13 @@
+div.yourEvent div.payment {
+    display: flex;
+    height: 16px;
+    margin-top: 25px;
+    size: 1rem;
+}
+
+div.yourEvent div label {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 1rem;
+    color: #9caac4;
+}
