@@ -27,6 +27,7 @@ class Form extends Component {
     errors: {
       title: false,
       description: false,
+      event_fee: false,
       id: false,
       date: false,
     },
@@ -34,6 +35,7 @@ class Form extends Component {
   messages = {
     title_incorrect: "Title cannot be empty",
     description_incorrect: "Write something about",
+    event_fee_incorrect: "Enter the amount",
     id_incorrect: "Choose a person",
     date_incorrect: "Select date",
   };
@@ -125,6 +127,7 @@ class Form extends Component {
   formValidation = () => {
     let title = false;
     let description = false;
+    let event_fee = false;
     let id = false;
     let date = false;
     let correct = false;
@@ -135,19 +138,27 @@ class Form extends Component {
     if (this.state.description !== "") {
       description = true;
     }
+    if (this.state.paid_event === true) {
+      if (this.state.event_fee !== "" || this.state.event_fee > 0) {
+        event_fee = true;
+      }
+    } else {
+      event_fee = true;
+    }
     if (this.state.date !== null) {
       id = true;
     }
     if (this.state.coordinator.id !== "") {
       date = true;
     }
-    if (title && description && id && date) {
+    if (title && description && event_fee && id && date) {
       correct = true;
     }
 
     return {
       title,
       description,
+      event_fee,
       id,
       date,
       correct,
