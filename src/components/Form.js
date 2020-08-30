@@ -117,6 +117,7 @@ class Form extends Component {
         errors: {
           title: !validation.title,
           description: !validation.description,
+          event_fee: !validation.event_fee,
           id: !validation.id,
           date: !validation.date,
         },
@@ -138,8 +139,8 @@ class Form extends Component {
     if (this.state.description !== "") {
       description = true;
     }
-    if (this.state.paid_event === true) {
-      if (this.state.event_fee !== "" || this.state.event_fee > 0) {
+    if (this.state.paid_event) {
+      if (this.state.event_fee !== "" && this.state.event_fee > 0) {
         event_fee = true;
       }
     } else {

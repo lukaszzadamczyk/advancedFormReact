@@ -45,6 +45,8 @@ class EventName extends Component {
                 paid={paid_event}
                 fee={event_fee}
                 change={change}
+                errors={errors}
+                messages={this.props.messages}
               />
               <Reward reward={reward} change={change} />
             </div>

@@ -26,7 +26,14 @@ const Payment = (props) => {
       />
       <label htmlFor="paid">Paid event</label>
 
-      {paidEvent ? <Fee change={props.change} fee={eventFee} /> : null}
+      {paidEvent ? (
+        <Fee
+          change={props.change}
+          fee={eventFee}
+          errors={props.errors}
+          messages={props.messages}
+        />
+      ) : null}
     </div>
   );
 };

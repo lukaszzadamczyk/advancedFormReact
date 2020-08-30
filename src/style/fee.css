@@ -17,3 +17,14 @@ span.fee {
     font-size: 1.2rem;
     color: #9caac4;
 }
+
+div.yourEvent div.messageEvent_fee {
+    position: absolute;
+    top: 75%;
+    left: 72%;
+    padding: 2px 5px;
+    font-size: 8px;
+    background-color: rgb(230, 129, 129);
+    color: white;
+
+}
