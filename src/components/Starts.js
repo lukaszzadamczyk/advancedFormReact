@@ -5,6 +5,8 @@ const Starts = (props) => {
   const am = props.date.time < "12:00" ? true : false;
   const pm = props.date.time >= "12:00" ? true : false;
 
+  const minDate = new Date().toISOString().slice(0, 10);
+
   return (
     <>
       <div className="contentStarts">
@@ -12,7 +14,7 @@ const Starts = (props) => {
           type="date"
           name="date"
           className="date"
-          min={props.date.date}
+          min={minDate}
           value={props.date.date}
           onChange={props.changeDate}
         />
