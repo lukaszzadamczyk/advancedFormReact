@@ -9,7 +9,7 @@ const Reward = (props) => {
         type="number"
         name="reward"
         id="reward"
-        value={props.reward === 0 ? <span>Number</span> : props.reward}
+        value={props.reward}
         onChange={props.change}
       />
       <label htmlFor="reward"> reward points for attendance </label>
